@@ -1,0 +1,37 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+key.properties
+keystore.properties
+google-services.json
+GoogleService-Info.plist
+# Dependencies and output
+node_modules/
+dist/
+coverage/
+*.log
+.vercel/
+# Native source is tracked; generated files are not
+android/.gradle/
+android/**/build/
+android/local.properties
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor*.json
+# iOS local/generated files
+ios/App/Pods/
+ios/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
